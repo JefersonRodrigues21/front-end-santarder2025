@@ -45,7 +45,7 @@ h3 {
 }
 
 .image-card img {
-    width: 300px;
+    width: 100px;
 }
 
 .gallery {
@@ -54,4 +54,15 @@ h3 {
     justify-content: center;
     margin-top: 40px;
     gap: 20px;
+}
+
+
+@media screen and (max-width: 690px) {
+    .details {
+        flex-direction: column;
+    }
+
+    .image-card {
+        flex-basis: 100px;
+    }
 }
